@@ -19,7 +19,7 @@ pcoa_eig <- (pcoa$eig)[1:2] / sum(pcoa$eig)
 sample_site <- data.frame({pcoa$li})[1:2]
 sample_site$names <- rownames(sample_site)
 names(sample_site)[1:2] <- c('PCoA1', 'PCoA2')
-sample_site$Orders <- orders[sample_site$names,2]
+sample_site$Orders <- orders[sample_site$names,1]
 
 ratio.display <- 3/4
 ratio.values <- (max(sample_site$PCoA1)-min(sample_site$PCoA1))/(max(sample_site$PCoA2)-min(sample_site$PCoA2))
