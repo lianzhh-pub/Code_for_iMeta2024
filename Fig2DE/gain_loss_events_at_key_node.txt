@@ -1,0 +1,52 @@
+				F1	F2	F3	F4	F5	F6	F7	F8	F9	F10	F11	F12	F13	F14	O1	O2	O3	O4	O5	C1
+				N7	N13	N26	GCA_001771235.1	N34	N35	N38	N43	N50	N52	N53	GCA_016927835.1_self	N56	N57	N12	N24	N37	N47	N55	N22
+rbcL	K01601	CBB	K01601	1	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+rbcS	K01602	CBB	K01602	1	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+prk	K00855	CBB	K00855	1	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+hyaA	K06282	Ni-Fe group 1d	K06282	1	1	1	0	0	0	0	0	0	0	1	1	0	1	1	1	0	1	1	1
+hyaB	K06281	Ni-Fe group 1d	K06281	1	1	1	0	0	0	0	0	0	0	1	1	0	1	1	1	0	1	1	1
+hypF	K04656	hydrogenase formation protein	K04656	1	1	1	1	1	1	1	1	0	0	1	1	0	1	1	1	1	1	1	1
+hypE	K04655	hydrogenase formation protein	K04655	1	1	1	1	1	1	1	1	1	1	1	2	0	1	1	1	1	1	1	1
+hypD	K04654	hydrogenase formation protein	K04654	1	1	1	0	1	1	1	1	0	0	1	1	0	1	1	1	1	1	1	1
+hypA, hybF	K04651	hydrogenase formation protein	K04651	1	1	1	1	1	1	1	1	0	1	1	1	0	1	1	1	1	1	1	1
+hypB	K04652	hydrogenase formation protein	K04652	1	1	1	1	1	1	0	1	0	1	1	1	0	1	1	1	1	1	1	1
+hypC	K04653	hydrogenase formation protein	K04653	1	1	1	0	1	1	1	1	0	0	1	1	0	1	1	1	1	1	1	1
+nosZ	K00376	Nitrogen metabolism	K00376	1	1	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	1	1
+NuoA	K00330	NADH:quinone oxidoreductase	K00330	1	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+NuoB	K00331	NADH:quinone oxidoreductase	K00331	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+NuoC	K00332	NADH:quinone oxidoreductase	K00332	1	1	1	0	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1	1
+NuoD	K00333	NADH:quinone oxidoreductase	K00333	1	1	1	0	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+nuoCD	K13378	NADH:quinone oxidoreductase	K13378	1	1	0	1	0	0	0	0	0	0	0	0	1	1	1	1	0	0	1	1
+NuoE	K00334	NADH:quinone oxidoreductase	K00334	1	1	1	1	1	1	1	1	1	1	1	2	1	0	1	1	1	1	1	1
+NuoF	K00335	NADH:quinone oxidoreductase	K00335	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+NuoG	K00336	NADH:quinone oxidoreductase	K00336	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+NuoH	K00337	NADH:quinone oxidoreductase	K00337	1	1	1	0	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+NuoI	K00338	NADH:quinone oxidoreductase	K00338	1	1	0	0	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+NuoJ	K00339	NADH:quinone oxidoreductase	K00339	1	1	0	0	1	0	0	1	0	0	0	0	1	1	1	1	1	0	1	1
+NuoK	K00340	NADH:quinone oxidoreductase	K00340	1	1	0	0	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+NuoL	K00341	NADH:quinone oxidoreductase	K00341	1	1	0	0	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+NuoM	K00342	NADH:quinone oxidoreductase	K00342	1	1	1	0	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+NuoN	K00343	NADH:quinone oxidoreductase	K00343	1	1	1	0	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+SdhA	K00239	Succinate dehydrogenase	K00239	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+SdhB	K00240	Succinate dehydrogenase	K00240	1	1	1	1	1	1	0	1	1	0	1	1	0	1	1	1	1	1	1	1
+SdhC	K00241	Succinate dehydrogenase	K00241	1	0	0	0	0	0	1	0	0	0	0	1	0	0	1	0	1	1	0	1
+SdhD	K00242	Succinate dehydrogenase	K00242	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+FrdA	K00244	Fumarate reductase	K00244	0	0	0	0	0	0	1	0	1	0	0	0	1	0	0	0	1	1	1	1
+FrdB	K00245	Fumarate reductase	K00245	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	1	1
+FrdC	K00246	Fumarate reductase	K00246	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	1	1
+FrdD	K00247	Fumarate reductase	K00247	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	1	1
+CoxA	K02274	cytochrome c oxidase aa3-type	K02274	1	1	1	1	0	1	0	0	1	0	1	0	1	1	1	1	0	1	1	1
+CoxB	K02275	cytochrome c oxidase aa3-type	K02275	1	1	1	1	0	1	0	0	1	1	1	0	1	1	1	1	0	1	1	1
+CoxC	K02276	cytochrome c oxidase aa3-type	K02276	1	1	1	1	0	1	0	0	1	0	1	0	1	1	1	1	0	1	1	1
+cydA	K00425	Cytochrome bd ubiquinol oxidase	K00425	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1
+cydB	K00426	Cytochrome bd ubiquinol oxidase	K00426	1	1	1	0	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1
+ccoN	K00404	cytochrome c oxidase cbb3-type	K00404	1	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+ccoO	K00405	cytochrome c oxidase cbb3-type	K00405	1	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+ccoP	K00406	cytochrome c oxidase cbb3-type	K00406	0	1	1	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	1
+ccoQ	K00407	cytochrome c oxidase cbb3-type	K00407	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ldh	K00016	 	K00016	1	0	1	0	1	1	1	1	1	0	1	1	0	0	1	1	1	1	0	1
+ackA	K00925	 	K00925	1	1	1	2	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1
+pta	K13788	 	K13788	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+pta	K00625	 	K00625	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+adhB	K22474	 	K22474	1	1	1	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	1
+adhE	K04072	 	K04072	1	1	0	0	0	0	1	0	1	0	0	1	0	1	1	0	1	1	1	1
