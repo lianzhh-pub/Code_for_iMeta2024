@@ -11,34 +11,29 @@ library(grid)
 library(vegan)
 require(scales)
 
-pca_r <- rda(t(kaas))
+library(ade4)
+tab.dist<-vegdist(t(kaas),method='euclidean')
 
-pca_p <- pca_r$CA$u
-pca_p <- as.data.frame(pca_p[,1:2])
-pca_p[,3] <-row.names(pca_p)  
-
+pcoa<- dudi.pco(tab.dist, scan = FALSE,nf=3)
+pcoa_eig <- (pcoa$eig)[1:2] / sum(pcoa$eig)
+sample_site <- data.frame({pcoa$li})[1:2]
+sample_site$names <- rownames(sample_site)
+names(sample_site)[1:2] <- c('PCoA1', 'PCoA2')
+sample_site$Orders <- orders[sample_site$names,2]
 
 ratio.display <- 3/4
-ratio.values <- (max(pca_p$PC1)-min(pca_p$PC1))/(max(pca_p$PC2)-min(pca_p$PC2))
+ratio.values <- (max(sample_site$PCoA1)-min(sample_site$PCoA1))/(max(sample_site$PCoA2)-min(sample_site$PCoA2))
 
-
-pca_arrow <- pca_r$CA$v
-pca_arrow <- as.data.frame(pca_arrow[,1:2])
-colnames(pca_p)[3] <- "Samples"
-#colnames(orders) <- c('Samples', 'Order')
-pca_p$orders <- orders[pca_p$Samples,1]
-
-
-p <- ggplot(pca_p,aes(PC1,PC2,colour=orders)) + geom_point(size=5) + 
-  #geom_label(label=row.names(pca_p))+
-  #geom_text_repel(aes(label=row.names(pca_p)),size=1,box.padding = unit(1.2,'lines')) +
-  ylab(colnames(pca_p)[2])+xlab(colnames(pca_p)[1])
-
-p <- p + geom_hline(yintercept=0, size=0.5) + geom_vline(xintercept=0,size=0.5) + theme_classic() +
-  theme(axis.line=element_line(linewidth =0.5), axis.ticks=element_line(linewidth =0.8,color="black"),
-        axis.text=element_text(color="black",size=16),axis.title=element_text(color="black",size=16),
-        axis.title.y=element_text(vjust=1.4),axis.title.x=element_text(vjust=0.001),
-        legend.title=element_text(size=16), panel.border=element_rect(colour="black",fill=NA, size=0.8))+
-  coord_fixed(ratio.values/(1/ratio.values)) + stat_ellipse(level = 0.95)
-
-ggsave("pcoa_kaas.pdf",p,width = 10,height = 10)
+pcoa_plot <- ggplot(sample_site, aes(PCoA1, PCoA2,color=Orders)) + #geom_point(size=3)+
+  geom_label(label=row.names(sample_site))+
+  theme_classic()+
+  geom_vline(xintercept = 0, color = 'gray', size = 0.4) + 
+  geom_hline(yintercept = 0, color = 'gray', size = 0.4) +
+  geom_point(size = 1.5)+  
+  stat_ellipse()+
+  #scale_color_manual(values = brewer.pal(6,"Set2")) + 
+  theme(panel.grid = element_line(color = 'gray', linetype = 2, size = 0.1), 
+        panel.background = element_rect(color = 'black', fill = 'transparent'), 
+        legend.title=element_blank())+
+  coord_fixed(ratio.values/(4/3) )
+ggsave("pcoa_kaas.pdf",pcoa_plot,width = 10,height = 10)
