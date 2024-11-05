@@ -1,1 +1,82 @@
 
+LABELS
+
+SEPARATOR TAB
+
+DATA
+#NODE_ID,LABEL
+GCA_004356825.1_self	Caldithrix sp. N075bin58
+GCA_004356135.1	Caldithrix sp. N074bin33
+GCA_011777055.1	candidate division KSB1 bacterium ACK-K089
+GCA_011774205.1	candidate division KSB1 bacterium KS4-K089
+GCA_016927835.1_self	candidate division KSB1 bacterium Zod_Metabat.436
+GCA_016926625.1_self	candidate division KSB1 bacterium Zod_Metabat.605
+GCA_016931935.1_self	candidate division KSB1 bacterium Zod_Metabat.1197
+GCA_014729735.1_self	candidate division KSB1 bacterium Bin_079
+GCA_016783825.1_self	candidate division KSB1 bacterium BS750m-G10
+GCA_011046315.1_self	bacterium SpSt-1156
+JZ4_201803_bins_154	JZ4_201803_bins_154
+JZ4_201803_bins_238	JZ4_201803_bins_238
+JZ4_201808_bins_206	JZ4_201808_bins_206
+JZ4_201709_bins_129	JZ4_201709_bins_129
+JZ2_201705_bins_219	JZ2_201705_bins_219
+GCA_013152765.1_self	Calditrichaeota bacterium M_MaxBin.061
+JZ2_201709_bins_23	JZ2_201709_bins_23
+GCA_011389025.1_self	bacterium SpSt-950
+GCA_014359355.1_self	Calditrichaeota bacterium MAG-107
+SZTDM2_201709_bins_136	SZTDM2_201709_bins_136
+JZ2_201808_bins_48	JZ2_201808_bins_48
+JZ4_201808_bins_132	JZ4_201808_bins_132
+JZ2_201907_bins_62	JZ2_201907_bins_62
+JZ2_201705_bins_85	JZ2_201705_bins_85
+GCA_014728085.1_self	candidate division KSB1 bacterium Bin_298
+GCA_016929055.1_self	candidate division KSB1 bacterium Zod_Metabat.28
+GCA_014728115.1_self	candidate division KSB1 bacterium Bin_228
+GCA_001771235.1	candidate division KSB1 bacterium RBG_16_48_16
+GCA_012523655.1_self	bacterium AS27yjCOA_10
+GCA_002327255.1_self	bacterium UBA2214
+GCA_013152225.1_self	Calditrichaeota bacterium M_MetaBat.126
+GCA_011682565.1_self	Actinobacteria bacterium OTbin.62
+GCA_016934825.1_self	candidate division KSB1 bacterium Zod_Metabat.863
+GCA_016928775.1_self	candidate division KSB1 bacterium Zod_Metabat.31
+GCA_016929295.1_self	candidate division KSB1 bacterium Zod_Metabat.251
+GCA_016928635.1	candidate division KSB1 bacterium Zod_Metabat.326
+GCA_003818595.1_self	Calditrichaeota bacterium metabat2.451
+SRBZ_201705_bins_74	SRBZ_201705_bins_74
+DPZ2_202101_bins_149	DPZ2_202101_bins_149
+GCA_015492895.1	candidate division KSB1 bacterium S146_25
+GCA_015488025.1	candidate division KSB1 bacterium S012_160_esom
+GCA_015490205.1	candidate division KSB1 bacterium S141_8
+GCA_015485555.1	candidate division KSB1 bacterium S139_15
+GCA_015493075.1	candidate division KSB1 bacterium S146_11
+GCA_015491485.1_self	candidate division KSB1 bacterium S140_5
+GCA_008501765.1_self	Calditrichaeota bacterium CLD2
+GCA_011375275.1_self	Bacteroidetes bacterium HyVt-473
+GCA_015485525.1_self	candidate division KSB1 bacterium S139_20
+GCA_015491795.1	candidate division KSB1 bacterium S140_3
+GCA_015487885.1	candidate division KSB1 bacterium S012_163
+GCA_015492145.1	candidate division KSB1 bacterium S146_9
+GCA_015490415.1	candidate division KSB1 bacterium S141_7
+JZ4_201803_bins_110	JZ4_201803_bins_110
+JZ4_201808_bins_140	JZ4_201808_bins_140
+JZ4_201709_bins_45	JZ4_201709_bins_45
+GCA_011047125.1_self	bacterium SpSt-324
+JZ2_202007_bins_101	JZ2_202007_bins_101
+JZ1_202101_bins_107	JZ1_202101_bins_107
+JZ2_202101_bins_2	JZ2_202101_bins_2
+GCA_013359385.1	candidate division KSB1 bacterium MAG_41
+GCA_003576975.1_self	candidate division KSB1 bacterium KSB
+GCA_014338045.1	candidate division KSB1 bacterium CDK1
+GCA_008363195.1	candidate division KSB1 bacterium KSB
+GCA_013359425.1_self	candidate division KSB1 bacterium MAG_40
+ZMQR_201803_bins_22	ZMQR_201803_bins_22
+JZ2_201808_bins_10	JZ2_201808_bins_10
+JZ4_201709_bins_165	JZ4_201709_bins_165
+JZ4_201808_bins_213	JZ4_201808_bins_213
+JZ2_201907_bins_186	JZ2_201907_bins_186
+JZ2_202007_bins_144	JZ2_202007_bins_144
+JZ2_202101_bins_52	JZ2_202101_bins_52
+JZ2_201912_bins_68	JZ2_201912_bins_68
+JZ4_201803_bins_290	JZ4_201803_bins_290
+JZ2_201901_bins_130	JZ2_201901_bins_130
+JZ1_202101_bins_37	JZ1_202101_bins_37
